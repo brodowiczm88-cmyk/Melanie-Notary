@@ -1,0 +1,11 @@
+{
+  "name": "melanie-notary",
+  "version": "1.0.0",
+  "description": "Professional Notary Public Website",
+  "scripts": {
+    "build": "echo 'No build needed for static site'"
+  },
+  "keywords": ["notary", "nevada", "public"],
+  "author": "Melanie B.",
+  "license": "ISC"
+}
