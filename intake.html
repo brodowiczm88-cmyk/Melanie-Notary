@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Intake Form — Melanie B Notary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --tiffany: #0ABAB5;
+      --tiffany-light: #E8FAFA;
+      --black: #0A0A0A;
+      --dark: #1A1A1A;
+      --light: #F8FAFA;
+      --white: #FFFFFF;
+      --border: #E8E8E8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      padding: 20px;
+    }
+    .header {
+      background: linear-gradient(135deg, var(--black) 0%, #1a1a1a 100%);
+      border-bottom: 3px solid var(--tiffany);
+      padding: 20px;
+      margin: -20px -20px 30px -20px;
+      text-align: center;
+    }
+    .header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      color: var(--white);
+      margin-bottom: 5px;
+    }
+    .header p {
+      font-size: 13px;
+      color: var(--tiffany);
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .intro h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 10px;
+    }
+    .intro p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+    .jotform-embed {
+      margin-top: 20px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: #999;
+    }
+    .footer a {
+      color: var(--tiffany);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    @media(max-width: 700px) {
+      .container { padding: 20px; }
+      .header h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Client Intake Form</h1>
+  <p>Melanie B Notary — Las Vegas, Nevada</p>
+</div>
+
+<div class="container">
+  <div class="intro">
+    <h2>Schedule Your Notarization</h2>
+    <p>Please complete this form to schedule your notary appointment and provide necessary details. We'll follow up within 24 hours to confirm your appointment time.</p>
+  </div>
+
+  <div class="jotform-embed">
+    <iframe id="JotFormIFrame" title="Client Intake Form for Melanie B Notary" onload="window.parent.scrollTo(0,0)" allowTransparency="true" allowFullScreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/261347916088062" frameborder="0" style="width:1px;min-width:100%;height:1533px;border:none;" scrolling="no"></iframe>
+    <script type="text/javascript">window.handleIFrameMessage=function(e){var t=document.getElementById("JotFormIFrame");void 0===window.origin&&(window.origin=window.location.protocol+"//"+window.location.host),e.origin===window.origin&&Number(e.data)>0&&(t.style.height=e.data+"px")},window.addEventListener("message",window.handleIFrameMessage,!1);</script>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Need help? Contact us at <a href="tel:7029004034">702-900-4034</a> or <a href="mailto:Melanie@melaniebnotary.com">Melanie@melaniebnotary.com</a></p>
+  <p style="margin-top: 10px;">© 2024 Melanie B Notary. All rights reserved.</p>
+</div>
+
+</body>
+</html>
