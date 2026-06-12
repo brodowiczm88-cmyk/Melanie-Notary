@@ -5,7 +5,7 @@ Professional Remote Online & Mobile Notary services for Las Vegas, nationwide, a
 
 - **Website**: melaniebnotary.com 
 - **Phone**: 702.900.4034
-- **Email**: melanie@melaniebnotary.com
+- **Email**: melaniebnotary@gmail.com
 - **Instagram**: @m_b_notary
 - **Commission #**: 23-1949-01
 - **Insured & Bonded**: $100,000
