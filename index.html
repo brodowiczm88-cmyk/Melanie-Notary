@@ -1621,60 +1621,8 @@ footer {
     <div class="quote-form-wrap reveal">
       <div class="quote-form">
         <div id="formContent">
-          <form id="notaryForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <div class="form-row">
-              <div class="form-group">
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" required>
-              </div>
-              <div class="form-group">
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" required>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" required>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="serviceType">Service Type</label>
-                <select id="serviceType" name="serviceType" required>
-                  <option value="">Select...</option>
-                  <option value="remote">Remote Online Notarization</option>
-                  <option value="mobile">Mobile Notary (Las Vegas)</option>
-                  <option value="international">International</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="numDocs">Number of Documents</label>
-                <select id="numDocs" name="numDocs" required>
-                  <option value="">Select...</option>
-                  <option value="1">1 document</option>
-                  <option value="2-3">2-3 documents</option>
-                  <option value="4-6">4-6 documents</option>
-                  <option value="7+">7+ documents</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="message">Tell Me About Your Documents</label>
-              <textarea id="message" name="message" placeholder="Document type, urgency, special requirements..." required></textarea>
-            </div>
-            <button type="submit" class="form-submit">Submit Request</button>
-          </form>
-        </div>
-        <div class="form-success" id="formSuccess">
-          <div class="form-success-icon">✓</div>
-          <h3>Request Received!</h3>
-          <p>Thanks! I'll contact you at the phone number provided within 2 hours to confirm your appointment.</p>
-        </div>
+          <iframe id="JotFormIFrame" title="Client Intake Form for Melanie B Notary" onload="window.parent.scrollTo(0,0)" allowTransparency="true" allowFullScreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/261347916088062" frameborder="0" style="width:1px;min-width:100%;height:1533px;border:none;" scrolling="no"></iframe>
+<script type="text/javascript">window.handleIFrameMessage=function(e){var t=document.getElementById("JotFormIFrame");void 0===window.origin&&(window.origin=window.location.protocol+"//"+window.location.host),e.origin===window.origin&&Number(e.data)>0&&(t.style.height=e.data+"px")},window.addEventListener("message",window.handleIFrameMessage,!1);</script>
       </div>
     </div>
   </div>
